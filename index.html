@@ -27,9 +27,9 @@
 
   <!-- Canonical & Favicons -->
   <link rel="canonical" href="https://{{DOMAIN}}/">
-  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg">
-  <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
-  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
 
   <!-- Preconnect & Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,8 +37,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
 
   <!-- Hero Image Preload -->
-  <link rel="preload" as="image" href="./assets/township-gate-dusk-mobile.webp" media="(max-width: 767px)" type="image/webp">
-  <link rel="preload" as="image" href="./assets/township-gate-dusk.webp" media="(min-width: 768px)" type="image/webp">
+  <link rel="preload" as="image" href="assets/township-gate-dusk-mobile.webp" media="(max-width: 767px)" type="image/webp">
+  <link rel="preload" as="image" href="assets/township-gate-dusk.webp" media="(min-width: 768px)" type="image/webp">
 
   <!-- Structured Data JSON-LD -->
   <script type="application/ld+json">
@@ -1306,7 +1306,7 @@
       overflow: hidden;
       box-shadow: var(--shadow-card);
       border: 1px solid var(--color-border);
-      background: #e5e3df;
+      background: #e5e3df url('assets/map-location-thumb.jpg') center/cover no-repeat;
     }
     .map-poster {
       position: absolute;
@@ -1649,8 +1649,8 @@
     <div class="container header-inner">
       <a href="#hero" class="header-logo" aria-label="Hero Homes Lucknow Home">
         <picture>
-          <source srcset="./assets/hero-homes-logo.webp" type="image/webp">
-          <img src="./assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" width="160" height="39" loading="eager" decoding="async">
+          <source srcset="assets/hero-homes-logo.webp" type="image/webp">
+          <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" width="160" height="39" loading="eager" decoding="async">
         </picture>
         <div class="header-brand-divider" aria-hidden="true"></div>
         <div class="header-partner-tag">
@@ -1671,9 +1671,9 @@
   <section class="hero-section" id="hero">
     <div class="hero-bg-container">
       <picture>
-        <source media="(max-width: 767px)" srcset="./assets/township-gate-dusk-mobile.webp 1x, ./assets/township-gate-dusk-mobile.jpg 2x" type="image/webp">
-        <source media="(min-width: 768px)" srcset="./assets/township-gate-dusk.webp 1x, ./assets/township-gate-dusk.jpg 2x" type="image/webp">
-        <img src="./assets/township-gate-dusk.jpg" alt="Hero Homes Lucknow Dusk Township Gate Render" width="1500" height="900" loading="eager" decoding="async" fetchpriority="high">
+        <source media="(max-width: 767px)" srcset="assets/township-gate-dusk-mobile.webp 1x, assets/township-gate-dusk-mobile.jpg 2x" type="image/webp">
+        <source media="(min-width: 768px)" srcset="assets/township-gate-dusk.webp 1x, assets/township-gate-dusk.jpg 2x" type="image/webp">
+        <img src="assets/township-gate-dusk.jpg" alt="Hero Homes Lucknow Dusk Township Gate Render" width="1500" height="900" loading="eager" decoding="async" fetchpriority="high">
       </picture>
       <div class="hero-overlay"></div>
     </div>
@@ -1946,24 +1946,24 @@
       <div class="gallery-carousel">
         <div class="gallery-card" onclick="openLightbox(0)">
           <picture>
-            <source srcset="./assets/township-overview.webp" type="image/webp">
-            <img src="./assets/township-overview.jpg" alt="Township Landscaped Green Parks" width="1200" height="801" loading="lazy" decoding="async">
+            <source srcset="assets/township-overview.webp" type="image/webp">
+            <img src="assets/township-overview.jpg" alt="Township Landscaped Green Parks" width="1200" height="801" loading="lazy" decoding="async">
           </picture>
           <div class="gallery-caption">Landscaped Green Parks & Open Spaces</div>
         </div>
 
         <div class="gallery-card" onclick="openLightbox(1)">
           <picture>
-            <source srcset="./assets/township-gate-dusk.webp" type="image/webp">
-            <img src="./assets/township-gate-dusk.jpg" alt="Grand Entrance Gate Render" width="1500" height="900" loading="lazy" decoding="async">
+            <source srcset="assets/township-gate-dusk.webp" type="image/webp">
+            <img src="assets/township-gate-dusk.jpg" alt="Grand Entrance Gate Render" width="1500" height="900" loading="lazy" decoding="async">
           </picture>
           <div class="gallery-caption">Grand Entrance Gate Visual</div>
         </div>
 
         <div class="gallery-card" onclick="openLightbox(2)">
           <picture>
-            <source srcset="./assets/plot-villa-elevation.webp" type="image/webp">
-            <img src="./assets/plot-villa-elevation.jpg" alt="Plot & Villa Elevation Visual" width="320" height="174" loading="lazy" decoding="async">
+            <source srcset="assets/plot-villa-elevation.webp" type="image/webp">
+            <img src="assets/plot-villa-elevation.jpg" alt="Plot & Villa Elevation Visual" width="320" height="174" loading="lazy" decoding="async">
           </picture>
           <div class="gallery-caption">Villa & Plot Elevation Concept</div>
         </div>
@@ -2218,12 +2218,12 @@
             <div class="footer-logos-flex">
               <div class="footer-logo-plate">
                 <picture>
-                  <source srcset="./assets/hero-homes-logo.webp" type="image/webp">
-                  <img src="./assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" width="140" height="34" loading="lazy" decoding="async">
+                  <source srcset="assets/hero-homes-logo.webp" type="image/webp">
+                  <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" width="140" height="34" loading="lazy" decoding="async">
                 </picture>
               </div>
               <div class="footer-logo-plate">
-                <img src="./assets/lucknow-homes-logo.webp" alt="Lucknow Homes Co-Brand Logo" width="140" height="42" loading="lazy" decoding="async">
+                <img src="assets/lucknow-homes-logo.webp" alt="Lucknow Homes Co-Brand Logo" width="140" height="42" loading="lazy" decoding="async">
               </div>
             </div>
             <p class="footer-brand-desc">
@@ -2347,8 +2347,8 @@
         <div class="gate-main-col">
           <div class="gate-logo-wrap">
             <picture>
-              <source srcset="./assets/hero-homes-logo.webp" type="image/webp">
-              <img src="./assets/hero-homes-logo.png" alt="Hero Homes Lucknow" width="160" height="39">
+              <source srcset="assets/hero-homes-logo.webp" type="image/webp">
+              <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow" width="160" height="39">
             </picture>
           </div>
           <h4 class="gate-heading">Register Here For <span class="text-red">Best Offers!</span></h4>
@@ -2545,9 +2545,9 @@
 
     // 6. Project Gallery Lightbox Implementation
     const galleryItems = [
-      { src: './assets/township-overview.jpg', caption: 'Landscaped Green Parks & Open Spaces' },
-      { src: './assets/township-gate-dusk.jpg', caption: 'Grand Entrance Gate Visual' },
-      { src: './assets/plot-villa-elevation.jpg', caption: 'Villa & Plot Elevation Concept' }
+      { src: 'assets/township-overview.jpg', caption: 'Landscaped Green Parks & Open Spaces' },
+      { src: 'assets/township-gate-dusk.jpg', caption: 'Grand Entrance Gate Visual' },
+      { src: 'assets/plot-villa-elevation.jpg', caption: 'Villa & Plot Elevation Concept' }
     ];
 
     let currentLightboxIdx = 0;
