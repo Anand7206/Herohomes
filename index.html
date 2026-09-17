@@ -297,25 +297,25 @@
       text-decoration: none;
     }
 
-    .header-logo picture, .header-logo img {
-      height: 34px;
+    .header-logo-img {
+      display: block;
+      height: 36px;
       width: auto;
+      max-height: 48px;
       object-fit: contain;
       image-rendering: -webkit-optimize-contrast;
       transition: height 0.2s ease;
     }
 
-    .sticky-header.scrolled .header-logo picture, 
-    .sticky-header.scrolled .header-logo img {
+    .sticky-header.scrolled .header-logo-img {
       height: 30px;
     }
 
     @media (min-width: 768px) {
-      .header-logo picture, .header-logo img {
+      .header-logo-img {
         height: 42px;
       }
-      .sticky-header.scrolled .header-logo picture,
-      .sticky-header.scrolled .header-logo img {
+      .sticky-header.scrolled .header-logo-img {
         height: 36px;
       }
     }
@@ -1648,10 +1648,7 @@
   <header class="sticky-header" id="mainHeader">
     <div class="container header-inner">
       <a href="#hero" class="header-logo" aria-label="Hero Homes Lucknow Home">
-        <picture>
-          <source srcset="assets/hero-homes-logo.webp" type="image/webp">
-          <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" width="160" height="39" loading="eager" decoding="async">
-        </picture>
+        <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" class="header-logo-img" width="160" height="39" loading="eager">
         <div class="header-brand-divider" aria-hidden="true"></div>
         <div class="header-partner-tag">
           <span class="partner-label">Authorised Channel Partner</span>
@@ -2217,13 +2214,10 @@
           <div class="footer-col">
             <div class="footer-logos-flex">
               <div class="footer-logo-plate">
-                <picture>
-                  <source srcset="assets/hero-homes-logo.webp" type="image/webp">
-                  <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" width="140" height="34" loading="lazy" decoding="async">
-                </picture>
+                <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" class="footer-logo-img" width="140" height="34" loading="eager">
               </div>
               <div class="footer-logo-plate">
-                <img src="assets/lucknow-homes-logo.webp" alt="Lucknow Homes Co-Brand Logo" width="140" height="42" loading="lazy" decoding="async">
+                <img src="assets/lucknow-homes-logo.png" alt="Lucknow Homes Co-Brand Logo" class="footer-logo-img" width="140" height="42" loading="eager">
               </div>
             </div>
             <p class="footer-brand-desc">
@@ -2346,10 +2340,7 @@
         <!-- LEFT column (~65%) -->
         <div class="gate-main-col">
           <div class="gate-logo-wrap">
-            <picture>
-              <source srcset="assets/hero-homes-logo.webp" type="image/webp">
-              <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow" width="160" height="39">
-            </picture>
+            <img src="assets/hero-homes-logo.png" alt="Hero Homes Lucknow Logo" width="160" height="39">
           </div>
           <h4 class="gate-heading">Register Here For <span class="text-red">Best Offers!</span></h4>
 

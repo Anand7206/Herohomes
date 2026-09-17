@@ -102,7 +102,7 @@ def run_phase3_verification():
 
         # 2. Plot Card Pre-selection (180 sq. yds)
         print("\n--- TEST: Plot Card Pre-Selection ---")
-        page.reload()
+        page.goto("http://localhost:8080/")
         page.wait_for_load_state("networkidle")
 
         page.evaluate("selectPlotCard('180 sq. yds', '₹1 Cr – ₹1.25 Cr')")
